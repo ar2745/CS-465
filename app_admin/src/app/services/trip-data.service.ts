@@ -10,8 +10,7 @@ import { User } from '../models/user';
 export class TripDataService {
 
   constructor(private http: Http,
-    @Inject(BROWSER_STORAGE) private storage: Storage
-    ) { }
+    @Inject(BROWSER_STORAGE) private storage: Storage) { }
 
   private apiBaseUrl = 'http://localhost:3000/api/';
   private tripUrl = `${this.apiBaseUrl}trips/`;
@@ -59,7 +58,7 @@ export class TripDataService {
   }
 
   public login(user: User): Promise<AuthResponse> {
-    return this.makeAuthApiCall('register', user);
+    return this.makeAuthApiCall('login', user);
   }
 
   public register(user: User): Promise<AuthResponse> {

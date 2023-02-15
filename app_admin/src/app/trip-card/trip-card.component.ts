@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { Trip } from '../models/trips';
-import { AuthenticationService } from '../authentication';
+import { AuthenticationService } from '../services/authentication';
 
 @Component({
   selector: 'app-trip-card',
