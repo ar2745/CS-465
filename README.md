@@ -41,7 +41,7 @@ The strategic use of code refactoring techniques in this project has led to sign
 
 TESTING
 
-1. Methods for request and retrieval necessitate various types of API testing of
+Methods for request and retrieval necessitate various types of API testing of
 endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
 Within this application, API endpoints have been utilized to both validate and authorize user access to the database. These endpoints are employed in conjunction with specific data-related methods, including GET, POST, PUT, and DELETE. It is essential to implement robust security measures to protect these endpoints, as failure to do so would leave them vulnerable to unauthorized access, which could potentially compromise all of the sensitive information contained within the database.
@@ -52,7 +52,7 @@ Overall, the proper implementation of secure API endpoints is crucial to the suc
 
 REFLECTION
 
-1. How has this course helped you in reaching your professional goals?
+How has this course helped you in reaching your professional goals?
 
 This course has provided me with valuable opportunities for professional development. Balancing a part-time job and academic studies can be a challenge, and finding time for personal growth can be difficult. However, this class has been instrumental in providing me with a comprehensive understanding of both frontend and backend development.
 
