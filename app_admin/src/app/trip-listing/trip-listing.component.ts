@@ -3,7 +3,7 @@ import { Router } from "@angular/router";
 //import { trips } from '../data/trips';
 import { TripDataService } from '../services/trip-data.service';
 import { Trip } from '../models/trips';
-import { AuthenticationService } from '../services/authentication';
+import { AuthenticationService } from '../authentication';
 
 @Component({
   selector: 'app-trip-listing',

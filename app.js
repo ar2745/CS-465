@@ -48,7 +48,7 @@ app.use('/travel', travelRouter);
 app.use('/api', apiRouter);
 
 // catch unauthorized error and create 401
-app.use((err, req, res, next) => {
+app.use(function(err, req, res, next) {
   if (err.name === 'UnauthorizedError') {
     res
       .status(401)
